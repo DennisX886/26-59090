@@ -1,0 +1,9 @@
+VCD info: dumpfile sim.vcd opened for output.
+============================================
+Sobel simulation finished.
+Output valid pixels = 304964
+Expected valid pixels = 304964
+Generated: edge_result.pgm (640x480)
+Generated: sim.vcd
+============================================
+testbench.v:134: $finish called at 3072155000 (1ps)
