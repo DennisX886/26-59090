@@ -1,0 +1,13 @@
+VCD info: dumpfile sim.vcd opened for output.
+============================================
+Sobel simulation finished.
+Median filter enable = 1
+Output valid pixels = 304964
+Expected valid pixels = 304964
+Generated: noisy_input.pgm (640x480)
+Generated: median_result.pgm (640x480)
+Generated: edge_result.pgm (640x480)
+Generated: sim.vcd
+Noise enable = 1, mode = 0, rate = 15/1000
+============================================
+testbench.v:262: $finish called at 3072155000 (1ps)

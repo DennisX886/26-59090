@@ -1,0 +1,18 @@
+Running: efx_run_sim.py edge_detection_basic --sim rtl --family Titanium --device Ti60F225 -v edge_detect_basic.v,t:default -v median_fliter.v,t:default --tb testbench.v --output_dir outflow --project_xml E:\DennisX\Efinity\edge_detection_v2_extend1\edge_detection_basic.xml
+Load simulation settings from project file : E:\DennisX\Efinity\edge_detection_v2_extend1\edge_detection_basic.xml
+Running: iverilog.exe -s sim -oE:\DennisX\Efinity\edge_detection_v2_extend1\work_sim\edge_detection_basic.vvp -fE:\DennisX\Efinity\edge_detection_v2_extend1\work_sim\edge_detection_basic.f
+Running: vvp.exe -lE:\DennisX\Efinity\edge_detection_v2_extend1\outflow\edge_detection_basic.rtl.simlog E:\DennisX\Efinity\edge_detection_v2_extend1\work_sim\edge_detection_basic.vvp
+VCD info: dumpfile sim.vcd opened for output.
+============================================
+Sobel simulation finished.
+Median filter enable = 1
+Output valid pixels = 304964
+Expected valid pixels = 304964
+Generated: noisy_input.pgm (640x480)
+Generated: median_result.pgm (640x480)
+Generated: edge_result.pgm (640x480)
+Generated: sim.vcd
+Noise enable = 1, mode = 0, rate = 15/1000
+============================================
+testbench.v:262: $finish called at 3072155000 (1ps)
+Stage completed: simrtl
