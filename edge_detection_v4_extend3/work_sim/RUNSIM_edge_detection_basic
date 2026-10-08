@@ -1,0 +1,2 @@
+iverilog.exe -s sim -oE:\DennisX\Efinity\edge_detection_v4_extend3\work_sim\edge_detection_basic.vvp -fE:\DennisX\Efinity\edge_detection_v4_extend3\work_sim\edge_detection_basic.f
+vvp.exe -lE:\DennisX\Efinity\edge_detection_v4_extend3\outflow\edge_detection_basic.rtl.simlog E:\DennisX\Efinity\edge_detection_v4_extend3\work_sim\edge_detection_basic.vvp

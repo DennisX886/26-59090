@@ -1,0 +1,49 @@
+VCD info: dumpfile sim.vcd opened for output.
+============================================
+Generating ONE fixed noisy input frame...
+============================================
+Fixed noisy input saved: noisy_input.pgm
+--------------------------------------------
+Start frame 0, threshold = 128
+Saved edge image, threshold = 128
+Valid pixels = 307200 / 304964
+WHITE edge pixels = 4229
+--------------------------------------------
+[KEY] press +, threshold before = 128
+[KEY] release +, threshold after  = 138
+--------------------------------------------
+Start frame 1, threshold = 138
+Saved edge image, threshold = 138
+Valid pixels = 307200 / 304964
+WHITE edge pixels = 3333
+--------------------------------------------
+[KEY] press +, threshold before = 138
+[KEY] release +, threshold after  = 148
+--------------------------------------------
+Start frame 2, threshold = 148
+Saved edge image, threshold = 148
+Valid pixels = 307200 / 304964
+WHITE edge pixels = 2437
+--------------------------------------------
+[KEY] press -, threshold before = 148
+[KEY] release -, threshold after  = 138
+--------------------------------------------
+Start frame 3, threshold = 138
+Saved edge image, threshold = 138
+Valid pixels = 307200 / 304964
+WHITE edge pixels = 3333
+--------------------------------------------
+============================================
+Realtime threshold simulation finished.
+Final threshold = 138
+The four edge images use EXACTLY the same noisy input.
+Generated:
+  noisy_input.pgm
+  median_result.pgm
+  edge_result_threshold_128.pgm
+  edge_result_threshold_138.pgm
+  edge_result_threshold_148.pgm
+  edge_result_threshold_138_after_minus.pgm
+  sim.vcd
+============================================
+testbench.v:459: $finish called at 36864940000 (1ps)
